@@ -28,6 +28,10 @@ DEBUG = True
 ALLOWED_HOSTS =  ['devoteamdjango-app.azurewebsites.net', '127.0.0.1', 'localhost']
 
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://devoteamdjango-app.azurewebsites.net"
+]
+
 # Application definition
 
 INSTALLED_APPS = [
